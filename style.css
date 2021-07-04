@@ -2,6 +2,19 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    background: #fff;
+}
+.name{
+    font-family:fantasy;
+    
+}
+.half-container h1{
+    font-size: 50px;
+}
+.half-container h3{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #888;
 }
 .flexible-container{
     display: flex;
@@ -10,8 +23,33 @@ body{
     width: 50%;
     padding: 5%;
 }
+.half-container p{
+    padding-bottom: 20px;
+}
+.image-container{
+    text-align: center;
+    background-color: #cccccc21;
+}
 .image{
     height: 500px;
     width: 50%;
-    border: 1px solid #000;
+    border: 5px solid #000;
+    border-left: none;
+    border-top: none;
+}
+.btn1{
+    text-decoration: none; 
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid #888;
+}
+.btn{
+    text-decoration: none;
+    background: linear-gradient(to right , #ccc , #333);
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid #888;
 }
